@@ -18,7 +18,7 @@ body {
       rgba(0, 0, 0, 0.2) 80%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url(https://i.imgur.com/sxkH8zf.png);
+    url(https://st1.uvnimg.com/dims4/default/815ab59/2147483647/thumbnail/1240x698/quality/75/format/jpg/?url=https%3A%2F%2Fuvn-brightspot.s3.amazonaws.com%2Fassets%2Fvixpt%2Fs%2Fstranger-things-abertura-0816-1400x800.gif);
   background-size: cover;
   padding: 0.26rem 0.75rem 0 0.75rem;
 }
@@ -88,4 +88,64 @@ body {
 
 .banner__btn i {
   margin-right: 0.5rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo img {
+  width: 5.8rem;
+  cursor: pointer;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.697);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.header__menu ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.header__menu ul li {
+  padding-right: 1.2rem;
+}
+
+.header__menu--left ul li:hover {
+  color: white;
+}
+
+.header__menu--right {
+  color: white;
+  font-size: 20px;
+}
+
+.header__menu--right ul li:hover {
+  padding-right: 1.2rem;
+  color: rgb(136, 130, 130);
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+}
+
+.header__user img {
+  width: 2rem;
+  margin-right: 0.5rem;
+  border-radius: 3px;
+}
+
+.colorbell:hover{
+  color:rgba(231, 184, 17, 0.819);
 }

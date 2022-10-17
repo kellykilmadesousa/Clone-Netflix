@@ -2,31 +2,54 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>K Clone Netflix</title>
-  <link rel="stylesheet" href="src/style.css"/>
+  <link rel="stylesheet" href="src/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <div class="page_background">
     <div class="app__hero">
+      <header>
+        <div class="header__logo">
+          <img src="img/logo2.png" alt="Logo Netflix" />
+        </div>
+        <div class="header__menu">
+          <div class="header__menu--left">
+            <ul>
+              <li>Início</li>
+              <li>Séries</li>
+              <li>Filmes</li>
+              <li>Bombando</li>
+              <li>Minha lista</li>
+              <li>Navegar por idiomas</li>
+            </ul>
+          </div>
+          <div class="header__menu--right">
+            <ul>
+              <li><i class="fas fa-search"></i></li>
+              <li><i class="colorbell fas fa-bell"></i></li>
+              <li class="header__user">
+                <img src="./img/user1.png" alt="Avatar usuário" />
+                <i class="fas fa-sort-down"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
 
-			<header>
-				<!-- Parte de navegação do menu / Cabeçalho do site-->
-			</header>
-
-		 <!-- Main -->
+      <!-- Main -->
       <main>
         <!-- Banner -->
         <div class="banner">
-          <img class="banner__poster" src="./img/poster1.png" alt="Banner filme
-            Spiderhead"/>
-          <span class="banner__subtitle">Detentos participam de um experimento inovador com drogas que controlam as emoções em uma penitenciária de última geração. Mas o diretor da pesquisa está disposto a levar suas cobaias aos limites.</span>
+          <img class="banner__poster" src="img/poster1.png" alt="Banner filme
+            Stranger" />
+          <span class="banner__subtitle">Um grupo de amigos se envolve em uma série de eventos sobrenaturais na pacata cidade de Hawkins. Eles enfrentam criaturas monstruosas, agências secretas do governo e se aventuram em dimensões paralelas.</span>
 
           <div class="banner__btn">
             <button type="submit" class="banner__btn--play">
@@ -40,13 +63,14 @@
           </div>
         </div>
         <!-- Fim do Banner -->
-			</main>
+      </main>
 
-			<footer>
-				<!-- Rodapé do site -->
-			</footer>
+      <footer>
+        <!-- Rodapé do site -->
+      </footer>
 
-		</div>
+    </div>
   </div>
 </body>
+
 </html>
